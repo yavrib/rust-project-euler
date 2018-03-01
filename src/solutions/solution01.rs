@@ -11,5 +11,5 @@ pub fn solve() {
     });
 
     println!("Sum of the numbers that are divisible by 3 or 5 till 1000");
-    println!("The answer is {:?}", sum);;
+    println!("The answer is {:?}", sum);
 }
