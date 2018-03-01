@@ -1,6 +1,6 @@
 mod solutions;
 
-use solutions::{ solution01, solution02 };
+use solutions::{ solution01, solution02, solution03 };
 use std::io;
 
 fn main() {
@@ -18,6 +18,7 @@ fn main() {
         match problem_number.trim().as_ref() {
             "1" => solution01::solve(),
             "2" => solution02::solve(),
+            "3" => solution03::solve(),
             "exit" => {
                 println!("The program will exit now.");
                 break;
