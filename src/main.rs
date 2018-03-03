@@ -1,4 +1,5 @@
 mod solutions;
+mod common_operations;
 
 use solutions::{ solution01, solution02, solution03 };
 use std::io;
